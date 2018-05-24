@@ -5,16 +5,11 @@ importScripts('https://www.gstatic.com/firebasejs/5.0.3/firebase-app.js');
 importScripts('https://www.gstatic.com/firebasejs/5.0.3/firebase-messaging.js');
 // Initialize Firebase
 var config = {
-    apiKey: "AIzaSyAMl9GARuvD4Iv6zp1vUSxxfzVNntOk2qo",
-    authDomain: "test-f9817.firebaseapp.com",
-    databaseURL: "https://test-f9817.firebaseio.com",
-    projectId: "test-f9817",
-    storageBucket: "test-f9817.appspot.com",
     messagingSenderId: "114469939995"
 };
 firebase.initializeApp(config);
 
-var messaging = firebase.messaging();
+const messaging = firebase.messaging();
 
 /**
  * Here is is the code snippet to initialize Firebase Messaging in the Service
@@ -35,10 +30,9 @@ var messaging = firebase.messaging();
 
  // Retrieve an instance of Firebase Messaging so that it can handle background
  // messages.
- const messaging = firebase.messaging();
+
  // [END initialize_firebase_in_sw]
  **/
-
 
 // If you would like to customize notifications that are received in the
 // background (Web app is closed or not in browser focus) then you should
