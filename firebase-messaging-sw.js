@@ -5,7 +5,7 @@ importScripts('https://www.gstatic.com/firebasejs/5.0.3/firebase-app.js');
 importScripts('https://www.gstatic.com/firebasejs/5.0.3/firebase-messaging.js');
 // Initialize Firebase
 var config = {
-    messagingSenderId: "114469939995"
+    'messagingSenderId': '114469939995'
 };
 firebase.initializeApp(config);
 
