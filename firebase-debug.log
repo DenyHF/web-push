@@ -1,32 +1,41 @@
-[debug] [2018-05-24T11:25:08.840Z] ----------------------------------------------------------------------
-[debug] [2018-05-24T11:25:08.842Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve -o 192.168.4.229 -p 8081
-[debug] [2018-05-24T11:25:08.843Z] CLI Version:   3.18.5
-[debug] [2018-05-24T11:25:08.843Z] Platform:      darwin
-[debug] [2018-05-24T11:25:08.843Z] Node Version:  v8.11.2
-[debug] [2018-05-24T11:25:08.843Z] Time:          Thu May 24 2018 14:25:08 GMT+0300 (EEST)
-[debug] [2018-05-24T11:25:08.843Z] ----------------------------------------------------------------------
+[debug] [2018-05-24T11:39:10.498Z] ----------------------------------------------------------------------
+[debug] [2018-05-24T11:39:10.500Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve -p 8081
+[debug] [2018-05-24T11:39:10.500Z] CLI Version:   3.18.5
+[debug] [2018-05-24T11:39:10.500Z] Platform:      darwin
+[debug] [2018-05-24T11:39:10.500Z] Node Version:  v8.11.2
+[debug] [2018-05-24T11:39:10.500Z] Time:          Thu May 24 2018 14:39:10 GMT+0300 (EEST)
+[debug] [2018-05-24T11:39:10.500Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2018-05-24T11:25:08.853Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2018-05-24T11:25:08.853Z] > authorizing via signed-in user
-[debug] [2018-05-24T11:25:08.855Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/test-f9817  
+[debug] [2018-05-24T11:39:10.509Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-05-24T11:39:10.510Z] > authorizing via signed-in user
+[debug] [2018-05-24T11:39:10.511Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-05-24T11:39:10.511Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/XmIsHlNKnv9rVKzW2g10HhEdX8WE5x7FMYGGjpIpJyM',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Thu May 24 2018 14:39:10 GMT+0300 (EEST)
+[debug] [2018-05-24T11:39:10.689Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-24T11:39:10.699Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/test-f9817  
   
- Thu May 24 2018 14:25:08 GMT+0300 (EEST)
-[debug] [2018-05-24T11:25:09.600Z] <<< HTTP RESPONSE 200
-[debug] [2018-05-24T11:25:09.601Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/test-f9817/tokens  
+ Thu May 24 2018 14:39:10 GMT+0300 (EEST)
+[debug] [2018-05-24T11:39:11.741Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-24T11:39:11.741Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/test-f9817/tokens  
   
- Thu May 24 2018 14:25:09 GMT+0300 (EEST)
-[debug] [2018-05-24T11:25:10.313Z] <<< HTTP RESPONSE 200
-[debug] [2018-05-24T11:25:10.314Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/test-f9817  
+ Thu May 24 2018 14:39:11 GMT+0300 (EEST)
+[debug] [2018-05-24T11:39:12.382Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-24T11:39:12.383Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/test-f9817  
   
- Thu May 24 2018 14:25:10 GMT+0300 (EEST)
-[debug] [2018-05-24T11:25:11.165Z] <<< HTTP RESPONSE 200
+ Thu May 24 2018 14:39:12 GMT+0300 (EEST)
+[debug] [2018-05-24T11:39:13.174Z] <<< HTTP RESPONSE 200
 [info] 
 [info] === Serving from '/Users/user/Projects/firebase-push/messaging'...
 [info] 
-[debug] [2018-05-24T11:25:11.168Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/114469939995/clients/_:getWebAppConfig  
+[debug] [2018-05-24T11:39:13.176Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/114469939995/clients/_:getWebAppConfig  
   
- Thu May 24 2018 14:25:11 GMT+0300 (EEST)
-[debug] [2018-05-24T11:25:11.664Z] <<< HTTP RESPONSE 200
+ Thu May 24 2018 14:39:13 GMT+0300 (EEST)
+[debug] [2018-05-24T11:39:13.651Z] <<< HTTP RESPONSE 200
 [info] i  hosting: Serving hosting files from: ./
-[info] ✔  hosting: Local server: http://192.168.4.229:8081
+[info] ✔  hosting: Local server: http://localhost:8081
 
