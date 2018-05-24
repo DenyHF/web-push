@@ -5,8 +5,6 @@
 importScripts('https://www.gstatic.com/firebasejs/4.13.0/firebase-app.js');
 importScripts('https://www.gstatic.com/firebasejs/4.13.0/firebase-messaging.js');
 
-var CAPPING_DOMAIN = 'c.lentainform.com';
-
 var config = {
     apiKey: "AIzaSyAMl9GARuvD4Iv6zp1vUSxxfzVNntOk2qo",
     authDomain: "test-f9817.firebaseapp.com",
