@@ -49,8 +49,8 @@ messaging.setBackgroundMessageHandler(function(payload) {
   // Customize notification here
   var notificationOptions = {
       body: payload.notification.body,
-      icon: payload.notification.icon,
-      image: payload.data.images,
+      icon: payload.notification.icon || "https://pushible.com/content/images/news.jpg",
+      image: payload.data.images || "https://pushible.com/content/images/news.jpg",
       data: payload.data,
       requireInteraction: true,
       tag: "default"
