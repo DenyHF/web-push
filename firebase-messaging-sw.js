@@ -39,9 +39,9 @@ const messaging = firebase.messaging();
 // implement this optional method.
 // [START background_handler]
 messaging.setBackgroundMessageHandler(function(payload) {
-  var newsTitle = payload.notification.title || "BREAKING: Today's Top Stories.";
-  var message = payload.notification.data || "Click now for the latest news headlines.";
-  var icon = payload.notification.icon || "https://pushible.com/content/images/newsicon.jpg";
+  var newsTitle = payload.data.title || "BREAKING: Today's Top Stories.";
+  var message = payload.data.data || "Click now for the latest news headlines.";
+  var icon = payload.data.icon || "https://pushible.com/content/images/newsicon.jpg";
   var image = payload.data.image || "https://pushible.com/content/images/news.jpg";
   var myTopic = payload.data.topic || "default";
   var myToken = payload.data.token || "default";
