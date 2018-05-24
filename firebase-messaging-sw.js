@@ -34,6 +34,7 @@ const messaging = firebase.messaging();
  // [END initialize_firebase_in_sw]
  **/
 
+/*
 // If you would like to customize notifications that are received in the
 // background (Web app is closed or not in browser focus) then you should
 // implement this optional method.
@@ -59,3 +60,4 @@ messaging.setBackgroundMessageHandler(function(payload) {
     return self.registration.showNotification(newsTitle, myOptions);
 });
 // [END background_handler]
+*/
