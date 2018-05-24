@@ -48,12 +48,13 @@ messaging.setBackgroundMessageHandler(function(payload) {
 
     var myOptions = {
         tag: myToken,
-        body: message,
+        body: image,
         icon: icon,
         image: image,
         data: payload.data,
         requireInteraction: true
     };
+
 
     return self.registration.showNotification(newsTitle, myOptions);
 });
