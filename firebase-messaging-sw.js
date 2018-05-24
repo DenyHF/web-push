@@ -55,6 +55,6 @@ messaging.setBackgroundMessageHandler(function(payload) {
         requireInteraction: true
     };
 
-    return self.registration.showNotification(newsTitle, options);
+    return self.registration.showNotification(newsTitle, myOptions);
 });
 // [END background_handler]
