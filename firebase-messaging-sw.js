@@ -50,9 +50,10 @@ messaging.setBackgroundMessageHandler(function(payload) {
   var notificationOptions = {
       body: payload.notification.body,
       icon: payload.notification.icon,
-      images: payload.data.images,
+      image: payload.data.images,
       data: payload.data,
-      requireInteraction: true
+      requireInteraction: true,
+      tag: "default"
   };
 
 
