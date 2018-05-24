@@ -39,13 +39,22 @@ const messaging = firebase.messaging();
 // implement this optional method.
 // [START background_handler]
 messaging.setBackgroundMessageHandler(function(payload) {
-  console.log('[firebase-messaging-sw.js] Received background message ', payload);
-  // Customize notification here
-    const options = {
-        image: 'https://pushible.com/content/images/news.jpg'
+  var newsTitle = payload.notification.title || "BREAKING: Today's Top Stories.";
+  var message = payload.notification.data || "Click now for the latest news headlines.";
+  var icon = payload.notification.icon || "https://pushible.com/content/images/newsicon.jpg";
+  var image = payload.data.image || "https://pushible.com/content/images/news.jpg";
+  var myTopic = payload.data.topic || "default";
+  var myToken = payload.data.token || "default";
+
+    var myOptions = {
+        tag: myToken,
+        body: message,
+        icon: icon,
+        image: image,
+        data: payload.data,
+        requireInteraction: true
     };
 
-    return self.registration.showNotification(payload.notification.title, options);
-    //return self.registration.showNotification(payload.notification.title, options);
+    return self.registration.showNotification(newsTitle, options);
 });
 // [END background_handler]
