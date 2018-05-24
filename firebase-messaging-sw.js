@@ -2,9 +2,20 @@
 // These scripts are made available when the app is served or deployed on Firebase Hosting
 // If you do not serve/host your project using Firebase Hosting see https://firebase.google.com/docs/web/setup
 // Initialize Firebase
+importScripts('https://www.gstatic.com/firebasejs/4.13.0/firebase-app.js');
+importScripts('https://www.gstatic.com/firebasejs/4.13.0/firebase-messaging.js');
+
+var CAPPING_DOMAIN = 'c.lentainform.com';
+
 var config = {
-    'messagingSenderId': '114469939995'
+    apiKey: "AIzaSyAMl9GARuvD4Iv6zp1vUSxxfzVNntOk2qo",
+    authDomain: "test-f9817.firebaseapp.com",
+    databaseURL: "https://test-f9817.firebaseio.com",
+    projectId: "test-f9817",
+    storageBucket: "test-f9817.appspot.com",
+    messagingSenderId: "114469939995"
 };
+
 firebase.initializeApp(config);
 
 
