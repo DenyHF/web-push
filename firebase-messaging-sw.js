@@ -45,7 +45,7 @@ messaging.setBackgroundMessageHandler(function(payload) {
         image: 'https://pushible.com/content/images/news.jpg'
     };
 
-    return messaging.registration.showNotification(payload.notification.title, options);
+    return self.registration.showNotification(payload.notification.title, options);
     //return self.registration.showNotification(payload.notification.title, options);
 });
 // [END background_handler]
