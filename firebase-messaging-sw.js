@@ -47,17 +47,11 @@ var messaging = firebase.messaging();
 messaging.setBackgroundMessageHandler(function(payload) {
   console.log('[firebase-messaging-sw.js] Received background message ', payload);
   // Customize notification here
-  var notificationOptions = {
-      body: payload.notification.body,
-      icon: payload.notification.icon || "https://pushible.com/content/images/news.jpg",
-      image: "https://pushible.com/content/images/news.jpg",
-      data: payload.data,
-      requireInteraction: true,
-      tag: "default"
-  };
+    const options = {
+        image: 'https://pushible.com/content/images/news.jpg'
+    };
 
 
-    return self.registration.showNotification(payload.notification.title,
-    notificationOptions);
+    return self.registration.showNotification(payload.notification.title, options);
 });
 // [END background_handler]

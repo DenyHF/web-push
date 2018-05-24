@@ -16,11 +16,20 @@
       <file leaf-file-name="firebase-messaging-sw.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/firebase-messaging-sw.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="52" column="31" lean-forward="true" selection-start-line="52" selection-start-column="31" selection-end-line="52" selection-end-column="31" />
+            <state relative-caret-position="371">
+              <caret line="54" column="81" selection-start-line="54" selection-start-column="81" selection-end-line="54" selection-end-column="81" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lib.dom.d.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="219">
+              <caret line="12839" column="20" selection-start-line="12839" selection-start-column="4" selection-end-line="12839" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -35,6 +44,7 @@
       <find>firebase-messaging-sw.js</find>
       <find>firebase-messaging</find>
       <find>firebase-cloud-messaging-push-scope</find>
+      <find>image</find>
     </findStrings>
     <replaceStrings>
       <replace>/web-push/</replace>
@@ -114,12 +124,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1527158668161</updated>
-      <workItem from="1527158669696" duration="5834000" />
+      <workItem from="1527158669696" duration="6291000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5834000" />
+    <option name="totallyTimeSpent" value="6291000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
@@ -177,15 +187,15 @@
     </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="12839" column="4" selection-start-line="12839" selection-start-column="4" selection-end-line="12839" selection-end-column="4" />
+        <state relative-caret-position="219">
+          <caret line="12839" column="20" selection-start-line="12839" selection-start-column="4" selection-end-line="12839" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/firebase-messaging-sw.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="52" column="31" lean-forward="true" selection-start-line="52" selection-start-column="31" selection-end-line="52" selection-end-column="31" />
+        <state relative-caret-position="371">
+          <caret line="54" column="81" selection-start-line="54" selection-start-column="81" selection-end-line="54" selection-end-column="81" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
